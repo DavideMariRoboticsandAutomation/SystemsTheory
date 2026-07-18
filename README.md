@@ -6,6 +6,7 @@ The core of the project, however, revolves around a continuous-time physical mod
 I thoroughly tested these observers against simulated external disturbances and measurement noise to evaluate their reliability.  
 Subsequently, I designed dynamic output feedback compensators to ensure the asymptotic stability of the system and force it to precisely track complex reference trajectories, such as ramps and sinusoidal waves.
 A critical aspect of this phase was simulating realistic scenarios to verify the robustness of the control systems under parameter variations and uncertainties.  
-Inside this repository, you will find a highly structured set of MATLAB scripts and Simulink models. The .m files handle the heavy numerical computations, such as solving Gramian matrices for optimal control, and calculating feedback and observer gains using LQR and pole placement (acker) techniques. 
+Inside this repository, you will find a highly structured set of MATLAB scripts and Simulink models.
+The .m files handle the heavy numerical computations, such as solving Gramian matrices for optimal control, and calculating feedback and observer gains using LQR and pole placement (acker) techniques. 
 The .slx Simulink files contain the block diagrams used to simulate the closed-loop dynamics, complete with manual switches for noise injection and scopes to visualize state tracking and estimation errors. Attached, you will also find the complete PDF report detailing the theoretical framework, mathematical derivations, and simulation results. 
 Thank you for your attention.   
