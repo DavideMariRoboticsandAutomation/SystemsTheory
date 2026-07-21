@@ -10,7 +10,9 @@ All'interno di questo repository, troverete una serie altamente strutturata di s
 I file .m gestiscono i calcoli numerici più complessi, come la risoluzione di matrici di Gramian per il controllo ottimale e il calcolo dei guadagni di retroazione e dell'osservatore utilizzando le tecniche LQR e di posizionamento dei poli (Acker).
 I file Simulink .slx contengono i diagrammi a blocchi utilizzati per simulare la dinamica a ciclo chiuso, completi di interruttori manuali per l'iniezione di rumore e oscilloscopi per visualizzare il tracciamento dello stato e gli errori di stima. In allegato, troverete anche il report PDF completo che illustra in dettaglio il quadro teorico, le derivazioni matematiche e i risultati delle simulazioni.
 Grazie per l'attenzione.
+
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 I am pleased to present a comprehensive project in Systems Theory,completed during my Computer Engineering studies at the University of Tor Vergata.
 This project extensively utilizes MATLAB and Simulink to explore advanced concepts in automatic controls, state estimation, and optimal control, structured across three main assignments (Tirocinio 1, 3, and 4). 
 The first part of the project focuses on discrete-time systems. 
